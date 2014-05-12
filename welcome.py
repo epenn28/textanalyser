@@ -16,8 +16,7 @@ def welcome():
     print("                Please press Enter to begin                       ")
 
     begin = input()  
-    """ Stores user input into the begin variable """
-
+    
     """ Prints a blank line """
     print()
    
