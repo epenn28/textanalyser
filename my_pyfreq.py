@@ -37,6 +37,7 @@ def wordlist(filename):
         for word in line.split():
             for thing in word:
                 word = word.strip(punc)
+                word = word.lower()
 
             mywords.append(word)
 
