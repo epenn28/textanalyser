@@ -34,6 +34,12 @@ while (doAgain == "y"):
         #filename = open('ATB.txt', 'r')
         #contents = filename.read()
         #filename.close()
+    elif (userInput == 'd'):
+        customFile = input("Enter the exact name of the file you want to analyze:\n\n")
+        print("The following is the frequency of each word in the document:\n\n")
+        length = frequency(customFile)
+        print()
+        print("The document is {0} words long.".format(length))
     else:
         print("\n\n")
         print("Invalid input")
